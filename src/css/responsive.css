@@ -1,0 +1,627 @@
+
+
+/******************************************
+/* Media Query Manager
+/*******************************************/
+
+/*
+0-600px;        PHONE
+600 - 900px;    Tablet portrait
+900 - 1200px;   Tablet landscape
+[1200-1800] is where normal styles apply
+1800px + :      Big Desktop
+*/
+
+/*
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+ORDER: BASE + Typography > General Layout + Grid > Page Layout > Components
+*/
+
+/* 
+For Media queries the rem isn't equal to the root setup(ie:
+In our case 10px but instead browser default 16px
+Ems are the best option for media queries
+1em = 16 px; 
+*/
+
+
+
+
+
+
+/* 360px */
+@media only screen and (min-width: 22.5rem) {
+	.sidenav {
+		width: 288px;
+	}
+
+	.sidenav h3 {
+		font-size: var(--16p66);
+	}
+
+	.sidenav i {
+		font-size: var(--15px);
+	}
+
+	.sidenav p {
+		font-size: var(--12px);
+	}
+
+	.sidenav span {
+		font-size: var(--12px);
+	}
+
+	.sidenav p:last-child {
+		font-size: var(--10p8px);
+	}
+
+
+	.sidenav .envelope-icon:before {
+		font-size: var(--18px);
+	}
+
+
+	.sidenav .twitter-icon:before {
+		font-size: var(--18px);
+	}
+
+	.sidenav .linkedin-icon:before {
+		font-size: var(--18px);
+	}
+
+	.sidenav .github-icon:before {
+		font-size: var(--18px);
+	}
+
+	.sidenav .angellist-icon:before {
+		font-size: var(--18px);
+	}
+
+	nav ul li i {
+		font-size: var(--16p66);
+	}
+
+	.special {
+		left: 295px;
+	}
+
+
+
+	.mediaquery-at-736px a {
+		font-size: var(--16p66);
+	}
+
+
+
+	.main nav+a {
+		font-size: var(--16p66);
+	}
+
+	main h1 {
+		font-size: var(--26p66px);
+	}
+
+	main p {
+		font-size: var(--13p33px);
+	}
+
+	main .button {
+		font-size: var(--10p8px);
+	}
+
+	main img{
+		width:80%;
+	}
+	
+
+	.about-me p {
+		font-size: var(--13p33px);
+	}
+
+	.about-me a {
+		font-size: var(--10p6px);
+	}
+
+	.services h3{
+		font-size: var(--16p66);
+	}
+
+	.services h2{
+		font-size: var(--20px);
+	}
+
+	.services p{
+		font-size: var(--13p33px);
+	}
+
+	.projects h2 {
+		font-size: var(--20px);
+	}
+
+	.project h3 {
+		font-size: var(--16p66);
+	}
+
+	.project p,
+	.project strong {
+		font-size: var(--13p33px);
+	}
+
+	.project a{
+		font-size:var(--10p6px);
+	}
+
+	.tech-icons h2{
+		font-size: var(--20px);
+	}
+
+	.tech-icons img {
+		width: 46px;
+	
+	}
+}
+
+
+/* 480px */
+@media only screen and (min-width: 30rem) {
+	.projects>div {
+		display: inline-flex;
+		flex-wrap: wrap;
+		/* gap: 2rem; */
+		justify-content: space-between;
+	}
+
+	div .project {
+		width: 45%;
+	}
+
+	.tech-icons img {
+		width: 47px;
+	
+	}
+
+	.service i {
+		font-size: 36px;
+	}
+
+	.circle-icon{
+		padding: 18px;
+	}
+
+	.service{
+		display: flex; 
+	}
+
+	.service div + div{
+		margin-left: 20px;
+	}
+
+	.tech-icons img {
+		width: 48px;
+	
+	}
+
+	main img{
+		width: 75%;
+	}
+
+
+}
+
+/* 600px */
+@media only screen and (min-width: 37.5rem) {
+	main img{
+		width: 60%;
+	}
+}
+
+
+/* 736px */
+@media only screen and (min-width: 46em) {
+	main {
+		display: flex;
+		flex-direction: column;
+	}
+
+	main h1 {
+		font-size: var(--43p33px);
+		line-height: 1.3;
+	}
+
+	main p{
+		font-size: var(--13p33px);
+	}
+
+	main img {
+		width: 50%;
+	}
+
+
+
+	.sidenav {
+		width: 288px;
+	}
+
+	.main ul {
+		display: none;
+	}
+
+	.mediaquery-at-736px {
+		display: flex;
+		justify-content: space-between;
+		padding: 25px 0 4px;
+	}
+
+	.mediaquery-at-736px a {
+		align-self: center;
+	}
+
+	.mediaquery-at-736px ul {
+		display: flex;
+		align-items: center;
+		color: var(--cool-grey)
+	}
+
+	.mediaquery-at-736px li:not(:last-child) {
+		padding-right: 13px;
+	}
+
+
+
+	nav {
+		display: block;
+		position: relative;
+	}
+
+
+	.main nav span+span i {
+		position: absolute !important;
+		top: 10px;
+		left: -50px;
+		color: var(--green);
+		background-color: white;
+		font-size: 25px;
+	}
+
+
+	.main nav>span i {
+		color: var(--green);
+		background-color: white;
+		font-size: 25px;
+	}
+
+	.services h2, .tech-icons h2, .projects h2 {
+		font-size: var(--23p33px);
+	}
+
+	.tech-icons img {
+		width: 49px;
+	
+	}
+
+
+
+	.circle-icon {
+		padding: 20px;
+	}
+	
+	
+	.service i {
+		font-size: 42px;
+	}
+	
+
+
+}
+
+
+/* 980px */
+@media only screen and (min-width: 61.25rem) {
+	.sidenav {
+		width: 288px;
+	}
+
+	main img {
+		width: 40%
+	}
+
+	main h1 {
+		line-height: 1.3;
+		font-size: var(--46p66px);
+	}
+
+
+	.projects h2 {
+		font-size: var(--23p33px);
+	}
+
+	.tech-icons img {
+		width: 50px;
+	
+	}
+
+	.services > div {
+		display: flex;
+		flex-wrap: wrap;
+		
+	}
+
+	.services .service{
+		flex: 1 0 45%;
+	}
+
+	.circle-icon {
+		padding: 22px;
+	}
+	
+	
+	.service i {
+		font-size: 48px;
+	}
+
+
+}
+
+
+/* 1280px */
+@media only screen and (min-width: 80rem) {
+
+	.nav-button {
+		display: none;
+	}
+
+	main h1 {
+		font-size: var(--56px);
+	}
+
+	main p {
+		font-size: var(--14p66px);
+	}
+
+	main .button {
+		font-size: var(--11p88px);
+	}
+
+
+		main div {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+
+	main div img {
+		margin:0;
+		
+	}
+
+	main div, main section {
+		width: 50%;
+	}
+
+
+	
+	main img {
+		display: flex;
+		width: 100%;
+
+	}
+
+	main{
+		display: flex; 
+		flex-direction: row-reverse;
+	}
+
+	.toggle {
+		display: none;
+	}
+
+	.sidenav {
+		width: 420px;
+	}
+
+	.sidenav h3{
+		font-size: var(--18px);
+	}
+
+	.sidenav i {
+		font-size: var(--18px);
+	}
+
+	.sidenav p {
+		font-size: var(--13p33px);
+	}
+
+	.sidenav span {
+		font-size: var(--13p33px);
+	}
+
+	.sidenav p:last-child {
+		font-size: var(--11p88px);
+	}
+
+
+	.sidenav .envelope-icon:before {
+		font-size: var(--20px);
+	}
+
+
+	.sidenav .twitter-icon:before {
+		font-size: var(--20px);
+	}
+
+	.sidenav .linkedin-icon:before {
+		font-size: var(--20px);
+	}
+
+	.sidenav .github-icon:before {
+		font-size: var(--20px);
+	}
+
+	.sidenav .angellist-icon:before {
+		font-size: var(--20px);
+	}
+
+
+	body {
+		overflow: hidden;
+		height: 100vh;
+	}
+
+	.inner {
+		overflow-y: auto;
+	}
+
+	.sidenav {
+		display: block;
+		position: relative;
+		flex: 1 0 20%;
+	}
+
+	.wrapper {
+		display: flex;
+		height: 100%;
+	}
+
+	.projects h2 {
+		font-size: var(--26p66px);
+	}
+
+
+	.tech-icons h2 {
+		font-size: var(--25px);
+	}
+
+	.tech-icons img {
+		width: 52px;
+	
+	}
+
+	.mediaquery-at-736px i{
+		font-size: var(--20px);
+	}
+
+	.projects h2 {
+		font-size: var(--25px);
+	}
+
+	.projects h3 {
+		font-size: var(--18px)
+	}
+
+	.projects p, .projects strong {
+		font-size: var(--14p66px);
+	}
+
+	.projects .button {
+		font-size: var(--11p88px);
+	}
+
+
+	.services h2 {
+		font-size: var(--25px);
+	}
+
+	.services h3 {
+		font-size: var(--18px);
+	}
+
+
+}
+
+
+/* 1680 px */
+@media only screen and (min-width: 105rem) {
+	.sidenav {
+		width: 450px;
+	}
+
+
+	.special {
+		left: 460px;
+	}
+
+
+
+	.tech-icons img {
+		width: 65px;
+	
+	}
+
+	.sidenav h3 {
+		font-size: var(--21p66px);
+	}
+
+	.sidenav p {
+		font-size: var(--15px);
+	}
+
+	.sidenav span {
+		font-size: var(--15px);
+	}
+
+	.mediaquery-at-736px a {
+		font-size: var(--19p5px);
+	}
+
+	main h1 {
+		font-size: var(--69px);
+	}
+
+	main p {
+		font-size: var(--17p33px);
+	}
+
+	main .button {
+		font-size: var(--13p33px);
+	}
+
+	.tech-icons h2 {
+		font-size: var(--30px);
+
+	}
+
+	.services h2 {
+		font-size: var(--30px);
+	} 
+
+	.service h3 {
+		font-size: var(--21p66px);
+	}
+
+	.services p {
+		font-size: var(--17p33px);
+	}
+
+	.projects h2 {
+		font-size: var(--30px);
+
+	}
+
+	.projects h3 {
+		font-size: var(--21p66px);
+	}
+
+	.projects p, .projects strong{
+		font-size: var(--17p33px);
+	}
+
+	.projects .button {
+		font-size: var(--13p33px);
+	}
+
+	div .project {
+		width: 28%;
+	}
+
+	.about-me p {
+		font-size: var(--17p33px);
+	}
+
+	.about-me .button-resume{
+		font-size: var(--11p88px);
+	}
+}

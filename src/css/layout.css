@@ -1,0 +1,25 @@
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.inner {
+	padding: 0 24px;
+}
+
+@media only screen and (min-width: 46em) {
+	.inner {
+		padding: 0 53px;
+	}
+}
+
+@media only screen and (min-width: 80em) {
+	.inner {
+		padding: 0 73px;
+	}
+}
+
+@media only screen and (min-width: 112em) {
+	.inner {
+		padding: 0 104px;
+	}
+}
