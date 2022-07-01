@@ -1,5 +1,3 @@
-
-
 /******************************************
 /* Media Query Manager
 /*******************************************/
@@ -113,10 +111,10 @@ Ems are the best option for media queries
 		font-size: var(--10p8px);
 	}
 
-	main img{
-		width:80%;
+	main img {
+		width: 80%;
 	}
-	
+
 
 	.about-me p {
 		font-size: var(--13p33px);
@@ -126,15 +124,15 @@ Ems are the best option for media queries
 		font-size: var(--10p6px);
 	}
 
-	.services h3{
+	.services h3 {
 		font-size: var(--16p66);
 	}
 
-	.services h2{
+	.services h2 {
 		font-size: var(--20px);
 	}
 
-	.services p{
+	.services p {
 		font-size: var(--13p33px);
 	}
 
@@ -151,17 +149,17 @@ Ems are the best option for media queries
 		font-size: var(--13p33px);
 	}
 
-	.project a{
-		font-size:var(--10p6px);
+	.project a {
+		font-size: var(--10p6px);
 	}
 
-	.tech-icons h2{
+	.tech-icons h2 {
 		font-size: var(--20px);
 	}
 
 	.tech-icons img {
 		width: 46px;
-	
+
 	}
 }
 
@@ -181,31 +179,31 @@ Ems are the best option for media queries
 
 	.tech-icons img {
 		width: 47px;
-	
+
 	}
 
 	.service i {
 		font-size: 36px;
 	}
 
-	.circle-icon{
+	.circle-icon {
 		padding: 18px;
 	}
 
-	.service{
-		display: flex; 
+	.service {
+		display: flex;
 	}
 
-	.service div + div{
+	.service div+div {
 		margin-left: 20px;
 	}
 
 	.tech-icons img {
 		width: 48px;
-	
+
 	}
 
-	main img{
+	main img {
 		width: 75%;
 	}
 
@@ -214,7 +212,7 @@ Ems are the best option for media queries
 
 /* 600px */
 @media only screen and (min-width: 37.5rem) {
-	main img{
+	main img {
 		width: 60%;
 	}
 }
@@ -232,7 +230,7 @@ Ems are the best option for media queries
 		line-height: 1.3;
 	}
 
-	main p{
+	main p {
 		font-size: var(--13p33px);
 	}
 
@@ -294,13 +292,15 @@ Ems are the best option for media queries
 		font-size: 25px;
 	}
 
-	.services h2, .tech-icons h2, .projects h2 {
+	.services h2,
+	.tech-icons h2,
+	.projects h2 {
 		font-size: var(--23p33px);
 	}
 
 	.tech-icons img {
 		width: 49px;
-	
+
 	}
 
 
@@ -308,12 +308,12 @@ Ems are the best option for media queries
 	.circle-icon {
 		padding: 20px;
 	}
-	
-	
+
+
 	.service i {
 		font-size: 42px;
 	}
-	
+
 
 
 }
@@ -341,24 +341,24 @@ Ems are the best option for media queries
 
 	.tech-icons img {
 		width: 50px;
-	
+
 	}
 
-	.services > div {
+	.services>div {
 		display: flex;
 		flex-wrap: wrap;
-		
+
 	}
 
-	.services .service{
+	.services .service {
 		flex: 1 0 45%;
 	}
 
 	.circle-icon {
 		padding: 22px;
 	}
-	
-	
+
+
 	.service i {
 		font-size: 48px;
 	}
@@ -387,31 +387,35 @@ Ems are the best option for media queries
 	}
 
 
-		main div {
+	/* main div {
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
-	}
+	} */
 
 	main div img {
-		margin:0;
-		
+		margin: 0;
+
 	}
 
-	main div, main section {
+	/* main div,
+	main section {
 		width: 50%;
-	}
+	} */
 
 
-	
-	main img {
+	main .image-container{
 		display: flex;
-		width: 100%;
+		justify-content: center;
+		align-content: center;
+	}
+	main img {
+		width: 80%;
 
 	}
 
-	main{
-		display: flex; 
+	main {
+		display: flex;
 		flex-direction: row-reverse;
 	}
 
@@ -423,7 +427,7 @@ Ems are the best option for media queries
 		width: 420px;
 	}
 
-	.sidenav h3{
+	.sidenav h3 {
 		font-size: var(--18px);
 	}
 
@@ -497,10 +501,10 @@ Ems are the best option for media queries
 
 	.tech-icons img {
 		width: 52px;
-	
+
 	}
 
-	.mediaquery-at-736px i{
+	.mediaquery-at-736px i {
 		font-size: var(--20px);
 	}
 
@@ -512,7 +516,8 @@ Ems are the best option for media queries
 		font-size: var(--18px)
 	}
 
-	.projects p, .projects strong {
+	.projects p,
+	.projects strong {
 		font-size: var(--14p66px);
 	}
 
@@ -548,7 +553,7 @@ Ems are the best option for media queries
 
 	.tech-icons img {
 		width: 65px;
-	
+
 	}
 
 	.sidenav h3 {
@@ -586,7 +591,7 @@ Ems are the best option for media queries
 
 	.services h2 {
 		font-size: var(--30px);
-	} 
+	}
 
 	.service h3 {
 		font-size: var(--21p66px);
@@ -605,7 +610,8 @@ Ems are the best option for media queries
 		font-size: var(--21p66px);
 	}
 
-	.projects p, .projects strong{
+	.projects p,
+	.projects strong {
 		font-size: var(--17p33px);
 	}
 
@@ -621,7 +627,7 @@ Ems are the best option for media queries
 		font-size: var(--17p33px);
 	}
 
-	.about-me .button-resume{
+	.about-me .button-resume {
 		font-size: var(--11p88px);
 	}
 }
