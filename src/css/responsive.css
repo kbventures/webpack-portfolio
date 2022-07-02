@@ -398,10 +398,14 @@ Ems are the best option for media queries
 
 	}
 
-	/* main div,
+	main section,
 	main section {
 		width: 50%;
-	} */
+	}
+
+	main section + section div {
+		width: 95%;
+	}
 
 
 	main .image-container{
