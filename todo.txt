@@ -10,3 +10,5 @@ test responsiveness from 740 and up on ubuntu and windows
 finish webpack(Close)
 
 Include font awesome in your bundle(Last one)
+
+Deploy to netlify
