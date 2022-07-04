@@ -1,14 +1,17 @@
+fix buttons(no span) ** MONDAY AM
+
 fix button(js not responding from bundle.js) NOT IMPORTANT NEXT TO NO CODE
 
 
-fix buttons(no span) ** MONDAY AM
+
 night mode MONDAY PM
 
 change picture(DONE)
+Fix Image On About HTML
 remove search bar(DONE)
 test responsiveness from 740 and up on ubuntu and windows
 finish webpack(Close)
 
 Include font awesome in your bundle(Last one)
 
-Deploy to netlify
+Deploy to netlify(DONE)
