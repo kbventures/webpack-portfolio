@@ -3,15 +3,9 @@ fix buttons(no span) ** MONDAY AM
 fix button(js not responding from bundle.js) NOT IMPORTANT NEXT TO NO CODE
 
 
-
-night mode MONDAY PM
-
-change picture(DONE)
 Fix Image On About HTML
-remove search bar(DONE)
 test responsiveness from 740 and up on ubuntu and windows
-finish webpack(Close)
-
+Night Mode
 Include font awesome in your bundle(Last one)
-
-Deploy to netlify(DONE)
+Tinker More With Webpacks(Images())
+Make Search Bar Work

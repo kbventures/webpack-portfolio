@@ -3,11 +3,13 @@
 /*******************************************/
 
 /*
-0-600px;        PHONE
-600 - 900px;    Tablet portrait
-900 - 1200px;   Tablet landscape
-[1200-1800] is where normal styles apply
-1800px + :      Big Desktop
+0-320			Very Small phone
+320-480			Small Phone
+480-600px;      PHONE
+600 - 990px;    Tablet portrait
+980 - 1280px;   Tablet landscape
+[1280-1680] 	Desktop
+1680px + :      Big Desktop
 */
 
 /*
@@ -386,13 +388,6 @@ Ems are the best option for media queries
 		font-size: var(--11p88px);
 	}
 
-
-	/* main div {
-		display: flex;
-		flex-direction: row;
-		justify-content: flex-end;
-	} */
-
 	main div img {
 		margin: 0;
 
@@ -403,16 +398,17 @@ Ems are the best option for media queries
 		width: 50%;
 	}
 
-	main section + section div {
+	main section+section div {
 		width: 95%;
 	}
 
 
-	main .image-container{
+	main .image-container {
 		display: flex;
 		justify-content: center;
 		align-content: center;
 	}
+
 	main img {
 		width: 80%;
 
@@ -552,7 +548,6 @@ Ems are the best option for media queries
 	.special {
 		left: 460px;
 	}
-
 
 
 	.tech-icons img {
