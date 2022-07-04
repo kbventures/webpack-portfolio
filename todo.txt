@@ -2,9 +2,6 @@ fix buttons(no span) ** MONDAY AM
 
 fix button(js not responding from bundle.js) NOT IMPORTANT NEXT TO NO CODE
 
-
-Fix Image On About HTML
-test responsiveness from 740 and up on ubuntu and windows
 Night Mode
 Include font awesome in your bundle(Last one)
 Tinker More With Webpacks(Images())

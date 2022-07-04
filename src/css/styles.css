@@ -89,12 +89,14 @@ nav li:not(:last-child) {
 	padding-right: 13px;
 }
 
-nav>span i {
+.main nav a span i {
 	color: var(--cool-grey);
 	background-color: var(--metallic-silver-light);
 	padding: 18px 18px;
 	border-radius: 3px;
 }
+
+
 
 .mediaquery-at-736px ul {
 	display: none;
@@ -271,11 +273,11 @@ nav>span i {
 	text-decoration: none;
 }
 
-.sidenav>span i {
+/* .sidenav>span i {
 	color: var(--cool-grey);
 	background-color: var(--metallic-silver-light);
 	padding: 18px 18px;
-}
+} */
 
 .toggle {
 	display: none;

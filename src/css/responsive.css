@@ -278,7 +278,7 @@ Ems are the best option for media queries
 	}
 
 
-	.main nav span+span i {
+	.main nav a+a i {
 		position: absolute !important;
 		top: 10px;
 		left: -50px;
@@ -288,7 +288,7 @@ Ems are the best option for media queries
 	}
 
 
-	.main nav>span i {
+	.main nav > a  span i {
 		color: var(--green);
 		background-color: white;
 		font-size: 25px;
