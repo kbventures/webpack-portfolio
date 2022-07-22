@@ -3,7 +3,9 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-:root {
+
+
+html {
 	--green: green;
 	--green-radioactive: rgb(7, 191, 7);
 	--green-transparent: rgba(0, 128, 0, 0.1);
@@ -17,9 +19,6 @@
 	--mako: #3D4449;
 	--porcelain: #F5F6F7;
 	--anti-flash: #eff1f2;
-}
-
-html {
 	--3p75px: 0.2343rem;
 	--9p6px: 0.6rem;
 	--9p72px: 0.6075rem;

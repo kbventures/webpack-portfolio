@@ -1,8 +1,10 @@
-fix buttons(no span) ** MONDAY AM
-
+SEO CHECK LIST
+https://www.semrush.com/blog/seo-checklist/
+ACCESABILITY check LIST
+https://webaccessibilitychecklist.com/
 fix button(js not responding from bundle.js) NOT IMPORTANT NEXT TO NO CODE
-
 Night Mode
 Include font awesome in your bundle(Last one)
 Tinker More With Webpacks(Images())
+Add hamburger menu on wide screen
 Make Search Bar Work
