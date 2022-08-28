@@ -487,6 +487,13 @@ section>h2 {
 	overflow: hidden;
 	border-radius: 5px;
 	cursor: pointer;
+	max-height: 190px;
+}
+
+.custom-position{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .project img {
