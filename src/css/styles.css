@@ -7,7 +7,7 @@
 
 html {
 	--green: green;
-	--green-radioactive: rgb(7, 191, 7);
+	--green-radioactive: rgb(87,40,181);
 	--green-transparent: rgba(0, 128, 0, 0.1);
 	--black: #000000;
 	--white: #ffffff;
@@ -514,7 +514,7 @@ section>h2 {
 	padding: 18px;
 	border-radius: 50%;
 	border: 1px solid var(--oslo-grey);
-	color: green;
+	color: var(--green);
 }
 
 
