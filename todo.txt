@@ -1,8 +1,7 @@
 *** PRIORITY:
-Pictures for projects
-(tweetAssist)
-Content story blurb
 Lighthouse check
+Add linktree linktree
+Resume should be pdf download
 ***
 
 
