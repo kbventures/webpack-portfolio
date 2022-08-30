@@ -46,15 +46,5 @@ https://cloudinary.com/
 
 ## Lessons Learned:
 
-I programmed the website starting from a mobile design which was a good idea but I should have code the responsive structure from this size to large size
-before adding content.
-
-## Examples:
-
-Take a look at these couple examples that I have in my own portfolio:
-
-**Palettable:** https://github.com/alecortega/palettable
-
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
-
-**Patch Panel:** https://github.com/alecortega/patch-panel
+I programmed the website starting from a mobile design which was a good idea but I should have coded the responsive structure from this size to large size
+before adding content. I would have avoided pitfalls I had later when my content had to be changed from small screen size to acomodate to things in terms of content responssiveness I hadn't planned for.
