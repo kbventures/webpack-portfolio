@@ -17,17 +17,32 @@ Here's where you can go to town on how you actually built this thing. Write as m
 ## Optimizations
 
 Need to fix all Lighthouse scan errors
+<br>
 Add linktree linktree icon
+<br>
 Resume should be pdf download
+<br>
 SEO CHECK LIST
+<br>
 https://www.semrush.com/blog/seo-checklist/
+<br>
 ACCESABILITY check LIST
+<br>
 https://webaccessibilitychecklist.com/
+<br>
 Night Mode
+<br>
 Optimise image size and location
+<br>
 Webpack optimisation
+<br>
 Add hamburger menu on wide screen
+<br>
 Make Search Bar Work
+<br>
+Move images to
+<br>
+https://cloudinary.com/
 
 ## Lessons Learned:
 
