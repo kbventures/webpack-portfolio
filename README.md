@@ -5,8 +5,8 @@ Custom made portfolio website containing biography, portfolio projects and conta
 **Website:** https://kenbeaudin.netlify.app/
 
 <a target="_blank" href="https://kenbeaudin.netlify.app/">
-            <img src="images/under-construction.png" height="190px" alt="Twitter Assitance App"/>
-        </a>
+    <img src="src/img/ken-beaudin-banner.png" height="190px" alt="Twitter Assitance App"/>
+</a>
 
 ## How It's Made:
 
