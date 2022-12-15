@@ -378,6 +378,10 @@ main p {
 /* Tech Icons
 /*******************************************/
 
+.tech-icons{
+	margin-top:36px;
+}
+
 .tech-icons img {
 	width: 45px;
 
@@ -430,7 +434,7 @@ main p {
 
 
 .projects {
-	padding-top: 36px;
+	margin-top: 66px;
 
 }
 
@@ -508,6 +512,7 @@ section>h2 {
 /******************************************
 /* SERVICES
 /*******************************************/
+
 
 
 .services {

@@ -1,17 +1,26 @@
+TO BE PUSHED:
+Add Linketree icon/link
+Changed to a single page
+Reduce/Refactored Text
+
+
+
 *** PRIORITY:
-Lighthouse check
-Add linktree linktree
+Bullet Points in stead of text : rule of three
+Call to action menu & button link
 Resume should be pdf download
+Normalise top spacing in hamburger menu to be the same as main screen
+Lighthouse check
+SEO CHECK LIST
+https://www.semrush.com/blog/seo-checklist/
+ACCESABILITY check LIST
+https://webaccessibilitychecklist.com/
+French Version
 ***
 
 
 
 Fix Project Picture size
-
-SEO CHECK LIST
-https://www.semrush.com/blog/seo-checklist/
-ACCESABILITY check LIST
-https://webaccessibilitychecklist.com/
 fix button(js not responding from bundle.js) NOT IMPORTANT NEXT TO NO CODE
 Night Mode
 Include font awesome in your bundle(Last one)
