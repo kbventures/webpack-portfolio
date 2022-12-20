@@ -206,6 +206,17 @@ nav li:not(:last-child) {
 	font-style: italic;
 }
 
+
+.sidenav .link-icon:before {
+	font-family: "FontAwesome";
+	content: "\f0c1";
+	font-weight: 400;
+	padding-right: 15px;
+	color: var(--green);
+	font-size: var(--15px);
+
+}
+
 .sidenav .envelope-icon:before {
 	font-family: "Font Awesome 5 Free";
 	content: "\f0e0";
@@ -374,45 +385,6 @@ main p {
 }
 
 
-/******************************************
-/* Tech Icons
-/*******************************************/
-
-.tech-icons{
-	margin-top:36px;
-}
-
-.tech-icons img {
-	width: 45px;
-
-}
-
-.tech-icons h2{
-	font-weight: 700;
-}
-
-.tech-icons div {
-	display: flex;
-	flex-wrap: wrap; 
-	justify-content: center;
-}
-
-.tech-icons {
-	padding-top: 40px;
-}
-
-.tech-icons>div {
-	margin-bottom: var(--15px);
-}
-
-.tech-icons div img {
-	margin-right: 14px;
-	margin-bottom: 18px;
-}
-
-
-
-
 
 /******************************************
 /* About Me
@@ -544,6 +516,171 @@ section>h2 {
 	color: var(--oslo-grey);
 	margin: 0 0 var(--24px);
 }
+
+/******************************************
+/* Tech Icons
+/*******************************************/
+
+.tech-icons{
+	margin-top:36px;
+}
+
+.tech-icons img {
+	width: 45px;
+
+}
+
+.tech-icons h2{
+	font-weight: 700;
+}
+
+.tech-icons div {
+	display: flex;
+	flex-wrap: wrap; 
+	justify-content: center;
+}
+
+.tech-icons {
+	padding-top: 40px;
+}
+
+.tech-icons>div {
+	margin-bottom: var(--15px);
+}
+
+.tech-icons div img {
+	margin-right: 14px;
+	margin-bottom: 18px;
+}
+
+
+
+/******************************************
+/* CONTACT FORM
+/*******************************************/
+
+
+.container {
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea,
+  #contact button[type="submit"] {
+	font: 400 12px/16px "Roboto slab", Helvetica, Arial, sans-serif;
+  }
+  
+  #contact {
+	border-radius: 8px;
+	background: #f9f9f9;
+	padding: 30px;
+	margin: 46px 0;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  #contact h2 {
+	padding-bottom:10px;
+	display: block;
+	font-weight: 700;
+	margin-bottom: 10px;
+	text-align: center;
+	color: var(--mako);
+	border-bottom: 3px solid var(--green);
+	margin-bottom: var(--36px)
+}
+  
+  fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+	width: 100%;
+	border: 1px solid #ccc;
+	background: #fff;
+	margin: 0 0 5px;
+	padding: 10px;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="tel"]:hover,
+  #contact input[type="url"]:hover,
+  #contact textarea:hover {
+	-webkit-transition: border-color 0.3s ease-in-out;
+	-moz-transition: border-color 0.3s ease-in-out;
+	transition: border-color 0.3s ease-in-out;
+	border: 1px solid #aaa;
+  }
+  
+  #contact textarea {
+	height: 100px;
+	max-width: 100%;
+	resize: none;
+  }
+  
+  #contact button[type="submit"] {
+	cursor: pointer;
+	width: 100%;
+	border: none;
+	background: #4caf50;
+	color: #fff;
+	margin: 0 0 5px;
+	padding: 10px;
+	font-size: var(--15px);
+	border-radius: 30px;
+  }
+  
+  #contact button[type="submit"]:hover {
+	background: #43a047;
+  
+	-webkit-transition: background 0.3s ease-in-out;
+	-moz-transition: background 0.3s ease-in-out;
+	transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contact button[type="submit"]:active {
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .copyright {
+	text-align: center;
+  }
+  
+  #contact input:focus,
+  #contact textarea:focus {
+	outline: 0;
+	border: 1px solid #aaa;
+  }
+  
+  ::-webkit-input-placeholder {
+	color: #888;
+  }
+  
+  :-moz-placeholder {
+	color: #888;
+  }
+  
+  ::-moz-placeholder {
+	color: #888;
+  }
+  
+  :-ms-input-placeholder {
+	color: #888;
+  }
 
 
 /******************************************
@@ -706,6 +843,12 @@ section>h2 {
 	font-size: var(--18px);
 }
 
+#contact h2{
+	font-size: var(--18px)
+}
+
+
+
 /******************************************
 /* Button
 /*******************************************/
@@ -744,6 +887,36 @@ section>h2 {
 .button-resume:hover {
 	background-color: var(--green-transparent);
 }
+
+.button-call-to-action
+{
+  color: #ffffff;
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: var(--12px);
+  font-weight: 600;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  
+  box-shadow: 2px 7px 33px -2px rgba(154,171,237,1);
+  -webkit-box-shadow: 2px 7px 33px -2px rgba(154,171,237,1);
+  -moz-box-shadow: 2px 7px 33px -2px rgba(154,171,237,1);
+}
+
+.button-call-to-action:hover
+{
+  box-shadow: none;
+  cursor: pointer;
+}
+
+/* .button-call-to-action i
+{
+  font-size: 30px;
+  padding-right: 5px;
+} */
 
 
 
