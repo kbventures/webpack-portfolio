@@ -429,55 +429,61 @@
 
           <!-- CONTACT FORM -->
           <section class="container">
-            <form id="contact" action="" method="post">
+            <form id="contact" name="contact" data-netlify="true" action="POST">
               <h2>Contact form</h2>
               <fieldset>
                 <input
                   type="text"
+                  name="name"
                   tabindex="1"
-                  placeholder="first name"
+                  placeholder="First Name"
                   required
                 />
               </fieldset>
               <fieldset>
                 <input
                   type="text"
+                  name="lastname"
                   tabindex="2"
-                  placeholder="last name"
+                  placeholder="Last Name"
                   required
                 />
               </fieldset>
               <fieldset>
                 <input
                   type="email"
+                  name="email"
                   tabindex="3"
-                  placeholder="email id"
+                  placeholder="Email"
                   required
                 />
               </fieldset>
-              <fieldset>
+              <!-- <fieldset>
                 <input
                   type="tel"
                   tabindex="4"
                   placeholder="Phone No."
                   required
                 />
-              </fieldset>
+              </fieldset> -->
               <fieldset>
                 <input
                   type="url"
+                  name="link"
                   tabindex="5"
-                  placeholder="Website Link"
-                  required
+                  placeholder="Website Link (Optional)"
                 />
               </fieldset>
               <fieldset>
                 <textarea
+                  name="message"
                   tabindex="4"
-                  placeholder="Leave your message"
-                  required
+                  placeholder="Leave your message (Optional)"
                 >
                 </textarea>
+              </fieldset>
+              <fieldset>
+                <div data-netlify-recaptcha="true"></div>
               </fieldset>
 
               <fieldset>
@@ -493,6 +499,8 @@
             </form>
           </section>
         </section>
+
+        <!-- FOOTER -->
       </div>
     </div>
     <script src="./dist/bundle.js"></script>
