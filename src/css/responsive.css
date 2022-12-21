@@ -41,6 +41,8 @@ Ems are the best option for media queries
 
 	.sidenav h3 {
 		font-size: var(--16p66);
+		margin-top:65px;
+
 	}
 
 	.sidenav i {
@@ -162,6 +164,11 @@ Ems are the best option for media queries
 	.tech-icons img {
 		width: 46px;
 
+	}
+
+
+	#contact h2{
+		font-size:var(--20px)
 	}
 }
 
@@ -534,6 +541,10 @@ Ems are the best option for media queries
 		font-size: var(--18px);
 	}
 
+	#contact h2 {
+		font-size: var(--25px);
+	}
+
 
 }
 
@@ -628,5 +639,9 @@ Ems are the best option for media queries
 
 	.about-me .button-resume {
 		font-size: var(--11p88px);
+	}
+
+	#contact h2 {
+		font-size: var(--30px);
 	}
 }
