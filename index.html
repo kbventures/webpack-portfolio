@@ -478,8 +478,9 @@
                 ></textarea>
               </fieldset>
               <fieldset>
+                <!-- Removed the attribute from div below to improve performance
+                data-netlify-recaptcha="true" -->
                 <div
-                  data-netlify-recaptcha="true"
                   style="
                     transform: scale(0.77);
                     -webkit-transform: scale(0.77);
@@ -536,6 +537,7 @@
       </div>
     </div>
     <script
+    defer
     src="https://kit.fontawesome.com/68d05a0962.js"
     crossorigin="anonymous"
   ></script>
