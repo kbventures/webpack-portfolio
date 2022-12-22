@@ -99,7 +99,7 @@ Ems are the best option for media queries
 
 
 
-	.main nav+a {
+	.main nav+button {
 		font-size: var(--16p66);
 	}
 
@@ -290,7 +290,7 @@ Ems are the best option for media queries
 	}
 
 
-	.main nav a+a i {
+	.main nav button+button i {
 		position: absolute !important;
 		top: 10px;
 		left: -50px;
@@ -300,7 +300,7 @@ Ems are the best option for media queries
 	}
 
 
-	.main nav > a  span i {
+	.main nav > button  span i {
 		color: var(--green);
 		background-color: white;
 		font-size: 25px;

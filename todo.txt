@@ -22,3 +22,8 @@ Include font awesome in your bundle(Last one)
 Tinker More With Webpacks(Images())
 Add hamburger menu on wide screen
 Make Search Bar Work
+
+
+
+Optimizations:
+Change anchor tags to buttons which are not links

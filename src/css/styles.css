@@ -90,7 +90,12 @@ nav li:not(:last-child) {
 	padding-right: 13px;
 }
 
-.main nav a span i {
+.main nav button{
+	background: none;
+	border: none;
+}
+
+.main nav button span i {
 	color: var(--cool-grey);
 	background-color: var(--metallic-silver-light);
 	padding: 18px 18px;
@@ -377,8 +382,8 @@ main p {
 	font-weight: 400;
 }
 
-.main a:hover,
-.main a strong:hover {
+.main button:hover,
+.main button strong:hover {
 	color: var(--green)
 }
 
