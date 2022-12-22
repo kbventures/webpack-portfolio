@@ -1,35 +1,18 @@
-TO BE PUSHED:
-Add Linketree icon/link
-Changed to a single page
-Reduce/Refactored Text
-Add Lintree link in the hamburger menu
-Normalise top spacing in hamburger menu to be the same as main screen
 
-
-Form:
-https://codepen.io/MiXT4PE/pen/ERJVBX
 
 
 
 *** PRIORITY:
-Capchat is not responsive on mobile devices!
 Bullet Points in stead of text : rule of three
-Call to action menu & button link
-Resume should be pdf download
-button in project section should be centerin the same position 
 Lighthouse check
 SEO CHECK LIST
 https://www.semrush.com/blog/seo-checklist/
 ACCESABILITY check LIST
 https://webaccessibilitychecklist.com/
+Resume should be pdf download
+button in project section should be centerin the same position 
 French Version
 ***
-
-FOOTER:
-https://www.foolishdeveloper.com/2021/09/responsive-footer-design.html
-
-CONTACT FORM:
-https://codesandbox.io/s/contact-form-lxkvb?file=/index.css
 
 
 Fix Project Picture size

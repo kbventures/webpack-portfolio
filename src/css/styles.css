@@ -50,7 +50,9 @@ html {
 	--69px: 4.31rem;
 }
 
-
+html {
+	scroll-behavior: smooth;
+  }
 
 body {
 	box-sizing: border-box;
@@ -370,7 +372,7 @@ main h1 {
 
 main p {
 	color: var(--oslo-grey);
-	margin-bottom: var(--24px);
+	margin-bottom: var(--16p66);
 	letter-spacing: 1px;
 	font-weight: 400;
 }
@@ -707,11 +709,11 @@ footer img {
 footer #copyright {
 	margin-top:25px;
 	margin-bottom:25px;
+	text-align: center;
 
 }
 
 footer #copyright i {
-	text-align: center;
 	font-size: var(--12px) !important
 }
 
@@ -919,6 +921,7 @@ section>h2 {
 
 .button-call-to-action
 {
+  margin-top:  var(--16p66);
   color: #ffffff;
   background-color: #2ecc71;
   border: none;
