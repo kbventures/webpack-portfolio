@@ -217,6 +217,11 @@ Ems are the best option for media queries
 	}
 
 
+	footer img {
+		width: 150px;
+	}
+
+
 }
 
 /* 600px */
@@ -253,7 +258,7 @@ Ems are the best option for media queries
 		width: 288px;
 	}
 
-	.main ul {
+	.main .main {
 		display: none;
 	}
 
@@ -274,7 +279,7 @@ Ems are the best option for media queries
 	}
 
 	.mediaquery-at-736px li:not(:last-child) {
-		padding-right: 13px;
+		padding-right: 7px;
 	}
 
 
@@ -370,6 +375,10 @@ Ems are the best option for media queries
 
 	.service i {
 		font-size: 48px;
+	}
+	
+	.mediaquery-at-736px li:not(:last-child) {
+		padding-right: 13px;
 	}
 
 

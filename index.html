@@ -82,7 +82,7 @@
             >
               <span><i class="fa-solid fa-bars"></i></span>
             </a>
-            <ul>
+            <ul class="main">
               <!-- <li>
                 <a href=""><i class="far fa-moon"></i></a>
               </li> -->
@@ -194,7 +194,9 @@
                   download
                   >Resume</a
                 > -->
-                <button class="button-call-to-action">Let's connect!</button>
+                <a href="#contact" class="button-call-to-action">
+                  Let's connect
+                </a>
               </div>
             </section>
           </main>
@@ -414,23 +416,21 @@
               <img src="./src/img/git.svg" alt="MongoDB Icon Image" />
               <img src="./src/img/sass.svg" alt="" />
               <img src="./src/img/figma.svg" alt="MongoDB Icon Image" />
-              <img src="./src/img/heroku.svg" alt="React.js Icon Image" />
+              <img src="./src/img/heroku-icon.svg" alt="React.js Icon Image" />
               <!-- <img src="./src/img/redux.svg" alt="Express.js Icon Image" /> -->
-              <img src="./src/img/ubuntu.svg" alt="Node.js Icon Image" />
+              <img src="./src/img/ubuntu-icon.svg" alt="Node.js Icon Image" />
               <img src="./src/img/jest.svg" alt="MongoDB Icon Image" />
               <img src="./src/img/mocha.svg" alt="Express.js Icon Image" />
               <img src="./src/img/java-icon.svg" alt="Java Icon Image" />
-              <img
-                src="./src/img/mysql-logo-svgrepo-com.svg"
-                alt="MySQL Icon Image"
-              />
+              <img src="./src/img/mysql-icon.svg" alt="MySQL Icon Image" />
+              <img src="./src/img/postgresql-icon.svg" alt="Postgresql" />
             </div>
           </section>
 
           <!-- CONTACT FORM -->
           <section class="container">
             <form id="contact" name="contact" data-netlify="true" action="POST">
-              <h2>Contact form</h2>
+              <h2>Let's Connect!</h2>
               <fieldset>
                 <input
                   type="text"
@@ -482,7 +482,15 @@
                 ></textarea>
               </fieldset>
               <fieldset>
-                <div data-netlify-recaptcha="true"></div>
+                <div
+                  data-netlify-recaptcha="true"
+                  style="
+                    transform: scale(0.77);
+                    -webkit-transform: scale(0.77);
+                    transform-origin: 0 0;
+                    -webkit-transform-origin: 0 0;
+                  "
+                ></div>
               </fieldset>
 
               <fieldset>
@@ -497,9 +505,38 @@
               </fieldset>
             </form>
           </section>
-        </section>
+          <!-- FOOTER -->
 
-        <!-- FOOTER -->
+          <footer>
+            <ul>
+              <li>
+                <a href="https://twitter.com/kb9700"
+                  ><img src="./src/img/linkedin-ar21.svg" alt="Linkedin Link"
+                /></a>
+              </li>
+              <li>
+                <a href="https://github.com/kbventures"
+                  ><img src="./src/img/github-ar21.svg" alt="Github Link"
+                /></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/kb9700"
+                  ><img src="./src/img/twitter-ar21.svg" alt="Twitter Link"
+                /></a>
+              </li>
+              <li>
+                <a href="https://kenbeaudin.netlify.app/"
+                  ><img
+                    src="./src/img/ken-beaudin-banner.png"
+                    alt="Ken Beaudin Portfolio Website Link"
+                /></a>
+              </li>
+            </ul>
+            <p class="copyright">
+              <i>Copyright &copy; 2023, Ken Beaudin, All Rights Reserved</i>
+            </p>
+          </footer>
+        </section>
       </div>
     </div>
     <script src="./dist/bundle.js"></script>

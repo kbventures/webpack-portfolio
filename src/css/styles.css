@@ -586,10 +586,10 @@ section>h2 {
   
   #contact h2 {
 	padding-bottom:10px;
-	display: block;
+	display: inline-block;
 	font-weight: 700;
 	margin-bottom: 10px;
-	text-align: center;
+	/* text-align: center; */
 	color: var(--mako);
 	border-bottom: 3px solid var(--green);
 	margin-bottom: var(--36px)
@@ -687,7 +687,27 @@ section>h2 {
 /* FOOTER
 /*******************************************/
 
+footer{
+	height:200px;
+}
 
+footer ul{
+	display: flex;
+	/* flex-direction: column; */
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer img {
+	width: 120px;
+}
+
+footer p{
+	margin-top:25px;
+	margin-bottom:25px;
+}
 
 
 
@@ -898,12 +918,12 @@ section>h2 {
   border: none;
   border-radius: 6px;
   padding: 12px 20px;
-  font-size: var(--12px);
-  font-weight: 600;
+  font-size: var(--13px);
+  font-weight: 700;
   line-height: 22px;
-  display: flex;
+  display: inline-block;
   align-items: center;
-  
+  text-decoration: none;
   box-shadow: 2px 7px 33px -2px rgba(154,171,237,1);
   -webkit-box-shadow: 2px 7px 33px -2px rgba(154,171,237,1);
   -moz-box-shadow: 2px 7px 33px -2px rgba(154,171,237,1);
