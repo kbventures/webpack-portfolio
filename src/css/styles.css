@@ -704,9 +704,15 @@ footer img {
 	width: 120px;
 }
 
-footer p{
+footer #copyright {
 	margin-top:25px;
 	margin-bottom:25px;
+
+}
+
+footer #copyright i {
+	text-align: center;
+	font-size: var(--12px) !important
 }
 
 
