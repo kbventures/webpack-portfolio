@@ -1,29 +1,19 @@
-
-
-
-
-*** PRIORITY:
-Bullet Points in stead of text : rule of three
-Lighthouse check
-SEO CHECK LIST
-https://www.semrush.com/blog/seo-checklist/
-ACCESABILITY check LIST
+*** OPTIMIZATIONS:
 https://webaccessibilitychecklist.com/
 Resume should be pdf download
 button in project section should be centerin the same position 
 French Version
-***
-
-
-Fix Project Picture size
-fix button(js not responding from bundle.js) NOT IMPORTANT NEXT TO NO CODE
+Add specific dimensions to images by size of screens
 Night Mode
-Include font awesome in your bundle(Last one)
 Tinker More With Webpacks(Images())
 Add hamburger menu on wide screen
 Make Search Bar Work
+create captcha for form
+https://tehnoblog.org/google-invisible-recaptcha-how-to-boost-lighthouse-performance-score/
+***
 
 
 
-Optimizations:
-Change anchor tags to buttons which are not links
+
+
+
