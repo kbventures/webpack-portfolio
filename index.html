@@ -1,191 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="Your description goes here" />
-    <meta name="keywords" content="one, two, three" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ken Beaudin</title>
-    <link rel="stylesheet" href="./dist/main.css" />
-  </head>
 
-  <body>
-    <div class="wrapper">
-      <section id="mySidenav" class="sidenav">
-        <!-- <form action="/" method="GET" class="form">
-          <input type="search" placeholder="Search" class="search-field" />
-          <button type="submit" class="search-button">
-            <i class="fa-solid fa-magnifying-glass fa-rate-90"></i>
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Your description goes here" />
+  <meta name="keywords" content="one, two, three" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ken Beaudin</title>
+  <link rel="stylesheet" href="./dist/main.css" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <section id="mySidenav" class="sidenav">
+      <form action="/" method="GET" class="form">
+        <input type="search" placeholder="Search" class="search-field" />
+        <button type="submit" class="search-button">
+          <i class="fa-solid fa-magnifying-glass fa-rate-90"></i>
+        </button>
+      </form>
+      <h3>Get in touch</h3>
+      <p>Reach out and let's start a conversation</p>
+      <div>
+        <ul>
+          <li class="link-icon">
+            <a href="https://linktr.ee/kenbeaudin" target="_blank"
+              aria-label="Link to Linktree Profile"><span>KenBeaudin/linktree</span></a>
+          </li>
+
+          <li class="envelope-icon">
+            <a href="mailto:kb9700@protonmail.com" target="_blank"
+              aria-label="Email Ken Beaudin kb9700@protonmail.com"><span>KB9700@protonmail.com</span></a>
+          </li>
+          <li class="twitter-icon">
+            <a href="https://twitter.com/kb9700" target="_blank"
+              aria-label="Link to Twitter Profile"><span>KenBeaudin/Twitter</span></a>
+          </li>
+          <li class="linkedin-icon">
+            <a href="https://www.linkedin.com/mwlite/in/ken-beaudin-9a4061174" target="_blank"
+              aria-label="Link to Linkedin Profile"><span>KenBeaudin/Linkedin</span></a>
+          </li>
+          <li class="github-icon">
+            <a href="https://github.com/kbventures" target="_blank"
+              aria-label="Link to github profile"><span>KenBeaudin/Github</span></a>
+          </li>
+          <li class="angellist-icon">
+            <a href="https://angel.co/u/ken-mathieu-beaudin" target="_blank"
+              aria-label="Link to angellist profile"><span>KenBeaudin/AngelList</span></a>
+          </li>
+        </ul>
+      </div>
+      <p><em>&copy Ken Beaudin</em> All rights reserved.</p>
+    </section>
+
+    <div class="inner">
+      <section class="main">
+        <nav>
+          <button class="special toggle" style="font-size: 30px; cursor: pointer" onclick="closeNav()"
+            aria-label="Hamburger Menu Off">
+            <span><i class="fa-solid fa-bars"></i></span>
           </button>
-        </form> -->
-        <h3>Get in touch</h3>
-        <p>Reach out and let's start a conversation</p>
-        <div>
-          <ul>
-            <li class="link-icon">
-              <a href="https://linktr.ee/kenbeaudin" target="_blank" aria-label="Link to Linktree Profile"
-                ><span>KenBeaudin/linktree</span></a
-              >
-            </li>
 
-            <li class="envelope-icon">
-              <a href="mailto:kb9700@protonmail.com" target="_blank" aria-label="Email Ken Beaudin kb9700@protonmail.com"
-                ><span>KB9700@protonmail.com</span></a
-              >
+          <button class="nav-button" style="font-size: 30px; cursor: pointer" onclick="openNav()"
+            aria-label="Hamburger On">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <ul class="main">
+            <!-- <li>
+                <a href=""><i class="far fa-moon"></i></a>
+              </li> -->
+            <li>
+              <a href="https://linktr.ee/kenbeaudin" target="_blank" aria-label="Link to Linktree profile"><i
+                  class="fa-solid fa-link"></i></a>
             </li>
-            <li class="twitter-icon">
-              <a href="https://twitter.com/kb9700" target="_blank" aria-label="Link to Twitter Profile"
-                ><span>KenBeaudin/Twitter</span></a
-              >
+            <li>
+              <a href="mailto:kb9700@protonmail.com" target="_blank" aria-label="Link to kb9700@protonmail.com Email"><i
+                  class="fa-solid fa-envelope"></i></a>
             </li>
-            <li class="linkedin-icon">
-              <a
-                href="https://www.linkedin.com/mwlite/in/ken-beaudin-9a4061174"
-                target="_blank"
-                aria-label="Link to Linkedin Profile"
-                ><span>KenBeaudin/Linkedin</span></a
-              >
+            <li>
+              <a href="https://twitter.com/kb9700" target="_blank" aria-label="Link to Twitter profile"><i
+                  class="fa-brands fa-twitter"></i></a>
             </li>
-            <li class="github-icon">
-              <a href="https://github.com/kbventures" target="_blank" aria-label="Link to github profile"
-                ><span>KenBeaudin/Github</span></a
-              >
+            <li>
+              <a href="https://www.linkedin.com/mwlite/in/ken-beaudin-9a4061174" aria-label="Link to Linkedin profile"
+                target="_blank"><i class="fa-brands fa-linkedin" target="_blank"></i></a>
             </li>
-            <li class="angellist-icon">
-              <a href="https://angel.co/u/ken-mathieu-beaudin" target="_blank" aria-label="Link to angellist profile"
-                ><span>KenBeaudin/AngelList</span></a
-              >
+            <li>
+              <a href="https://github.com/kbventures" target="_blank" aria-label="Link to Github profile"><i
+                  class="fa-brands fa-github" target="_blank"></i></a>
+            </li>
+            <li>
+              <a href="https://angel.co/u/ken-mathieu-beaudin" target="_blank" aria-label="Link to angellist profile"><i
+                  class="fa-brands fa-angellist"></i></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="mediaquery-at-736px">
+          <a href="index.html">
+            Developing elegant <strong>user-centric solutions</strong> while
+            elevating others is what I do.
+          </a>
+          <ul>
+            <!-- <li>
+                <a href=""><i class="far fa-moon"></i></a>
+              </li> -->
+            <li>
+              <a href="https://linktr.ee/kenbeaudin" target="_blank"><i class="fas fa-link"></i></a>
+            </li>
+            <li>
+              <a href="mailto:kb9700@protonmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/kb9700" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/mwlite/in/ken-beaudin-9a4061174" target="_blank"><i
+                  class="fa-brands fa-linkedin" target="_blank"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/kbventures" target="_blank"><i class="fa-brands fa-github"
+                  target="_blank"></i></a>
+            </li>
+            <li>
+              <a href="https://angel.co/u/ken-mathieu-beaudin" target="_blank"><i
+                  class="fa-brands fa-angellist"></i></a>
             </li>
           </ul>
         </div>
-        <p><em>&copy Ken Beaudin</em> All rights reserved.</p>
-      </section>
-
-      <div class="inner">
-        <section class="main">
-          <nav>
-            <button
-              class="special toggle"
-              style="font-size: 30px; cursor: pointer"
-              onclick="closeNav()"
-              aria-label="Hamburger Menu Off"
-            >
-              <span><i class="fa-solid fa-bars"></i></span>
-            </button>
-
-            <button
-              class="nav-button"
-              style="font-size: 30px; cursor: pointer"
-              onclick="openNav()"
-              aria-label="Hamburger On"
-            >
-              <span><i class="fa-solid fa-bars"></i></span>
-            </button>
-            <ul class="main">
-              <!-- <li>
-                <a href=""><i class="far fa-moon"></i></a>
-              </li> -->
-              <li>
-                <a href="https://linktr.ee/kenbeaudin" target="_blank" aria-label="Link to Linktree profile"
-                  ><i class="fa-solid fa-link"></i
-                ></a>
-              </li>
-              <li>
-                <a href="mailto:kb9700@protonmail.com" target="_blank" aria-label="Link to kb9700@protonmail.com Email"
-                  ><i class="fa-solid fa-envelope"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/kb9700" target="_blank" aria-label="Link to Twitter profile"
-                  ><i class="fa-brands fa-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/mwlite/in/ken-beaudin-9a4061174" aria-label="Link to Linkedin profile"
-                  target="_blank"
-                  ><i class="fa-brands fa-linkedin" target="_blank"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://github.com/kbventures" target="_blank" aria-label="Link to Github profile"
-                  ><i class="fa-brands fa-github" target="_blank"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://angel.co/u/ken-mathieu-beaudin" target="_blank" aria-label="Link to angellist profile"
-                  ><i class="fa-brands fa-angellist"></i
-                ></a>
-              </li>
-            </ul>
-          </nav>
-
-          <div class="mediaquery-at-736px">
-            <a href="index.html">
-              Developing elegant <strong>user-centric solutions</strong> while
-              elevating others is what I do.
-            </a>
-            <ul>
-              <!-- <li>
-                <a href=""><i class="far fa-moon"></i></a>
-              </li> -->
-              <li>
-                <a href="https://linktr.ee/kenbeaudin" target="_blank"
-                  ><i class="fas fa-link"></i
-                ></a>
-              </li>
-              <li>
-                <a href="mailto:kb9700@protonmail.com" target="_blank"
-                  ><i class="fa-solid fa-envelope"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/kb9700" target="_blank"
-                  ><i class="fa-brands fa-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/mwlite/in/ken-beaudin-9a4061174"
-                  target="_blank"
-                  ><i class="fa-brands fa-linkedin" target="_blank"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://github.com/kbventures" target="_blank"
-                  ><i class="fa-brands fa-github" target="_blank"></i
-                ></a>
-              </li>
-              <li>
-                <a href="https://angel.co/u/ken-mathieu-beaudin" target="_blank"
-                  ><i class="fa-brands fa-angellist"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
-          <main>
-            <section>
-              <div class="image-container">
-                <img src="https://res.cloudinary.com/dwxtx5mcj/image/upload/v1671815988/ken-beaudin_aicung.webp" alt="Ken Beaudin Picture" />
-              </div>
-            </section>
-            <section>
-              <div>
-                <h1>Hi, I'm Ken, Your Next Software Engineer</h1>
-                 <p>
-                    A business professional with 15+ years of experience
-                    implementing solutions for hundreds of clients and business
-                    partners as a Business Consultant and Certified Financial
-                    Planner.
-                  </p>
-                  <p>I love designing and developing web solutions.</p>
-                  <p>
-                    I strive to solve problems with the best solution every
-                    time. 
-                  </p>
-                </ul>
-                <!-- <a class="button" href="./about.html">Meet Me</a> -->
-                <!-- <a
+        <main>
+          <section>
+            <div class="image-container">
+              <img src="https://res.cloudinary.com/dwxtx5mcj/image/upload/v1671815988/ken-beaudin_aicung.webp"
+                alt="Ken Beaudin Picture" />
+            </div>
+          </section>
+          <section>
+            <div>
+              <h1>Hi, I'm Ken, Your Next Software Engineer</h1>
+              <p>
+                A business professional with 15+ years of experience
+                implementing solutions for hundreds of clients and business
+                partners as a Business Consultant and Certified Financial
+                Planner.
+              </p>
+              <p>I love designing and developing web solutions.</p>
+              <p>
+                I strive to solve problems with the best solution every
+                time.
+              </p>
+              </ul>
+              <!-- <a class="button" href="./about.html">Meet Me</a> -->
+              <!-- <a
                   class="button-resume download-icon"
                   target="_blank"
                   href="https://docs.google.com/document/d/1FE8GlYo_tdFu66k8DwdRcIrIpWzCXS6nJOMbGMMaXoE/edit"
@@ -193,276 +159,223 @@
                   download
                   >Resume</a
                 > -->
-                <a href="#contact" class="button-call-to-action">
-                  Let's connect
-                </a>
+              <a href="#contact" class="button-call-to-action">
+                Let's connect
+              </a>
+            </div>
+          </section>
+        </main>
+
+        <section class="projects">
+          <h2>Projects</h2>
+          <div>
+
+            <section class="project">
+              <a class="img-wrapper" aria-label="tradeAssist Link to project"
+                href="https://calm-rose-bison-veil.cyclic.app/">
+                <img src="https://res.cloudinary.com/dwxtx5mcj/image/upload/v1671817931/under-construction_ikywmm.webp"
+                  alt="Image Under Construction" />
+              </a>
+              <h3>tradetAssist</h3>
+              <div>
+                <p>
+                  <strong>HTML, CSS, React, Node.js, Express.js, MongoDB, Mongoose
+                    Jest, Github Projects, Cylic.sh & JWT
+                    Authentication</strong>
+                  - Mindful analysis or your personal trade and chart price
+                  history!
+                </p>
+                <!-- <p><strong>Demo account:</strong>: demo@demo.com</p>
+                  <p><strong>Demo password</strong>: demo</p> -->
+                <a class="button" href="https://calm-rose-bison-veil.cyclic.app/" target="_blank">Visit</a>
               </div>
             </section>
-          </main>
 
-          <section class="projects">
-            <h2>Projects</h2>
-            <div>
-
-              <section class="project">
-                <a class="img-wrapper" aria-label="tradeAssist Link to project" href="https://calm-rose-bison-veil.cyclic.app/">
-                  <img src="https://res.cloudinary.com/dwxtx5mcj/image/upload/v1671817931/under-construction_ikywmm.webp" alt="Image Under Construction" />
-                </a>
-                <h3>tradetAssist</h3>
-                <div>
-                  <p>
-                    <strong
-                      >HTML, CSS, React, Node.js, Express.js, MongoDB, Mongoose
-                      Jest, Github Projects, Cylic.sh & JWT
-                      Authentication</strong
-                    >
-                    - Mindful analysis or your personal trade and chart price
-                    history!
-                  </p>
-                  <!-- <p><strong>Demo account:</strong>: demo@demo.com</p>
+            <section class="project">
+              <a class="img-wrapper project-image-height custom-position" href="https://e-renaissance.herokuapp.com/"
+                target="_blank" alt="E Renaissance Logo Image">
+                <img src="https://res.cloudinary.com/dwxtx5mcj/image/upload/v1671816363/e-renaissance_y375h1.webp"
+                  alt="eRenaissance Logo Image" />
+              </a>
+              <h3>eRenaissance</h3>
+              <div>
+                <p>
+                  <strong>HTML, CSS, CSS Modules, React, Express.js, Node.js,
+                    MongoDB, Webpack, TypeScript, Git, CIDC Github Actions &
+                    Jest</strong>
+                  - eRenaissance is a custom built state of the art ecommerce
+                  website with Stripe intergration!
+                </p>
+                <!-- <p><strong>Demo account:</strong>: demo@demo.com</p>
                   <p><strong>Demo password</strong>: demo</p> -->
-                  <a
-                    class="button"
-                    href="https://calm-rose-bison-veil.cyclic.app/"
-                    target="_blank"
-                    >Visit</a
-                  >
-                </div>
-              </section>
+                <a class="button" href="https://e-renaissance.herokuapp.com/" target="_blank"
+                  aria-label="Link to E Renaisssance Ecommerce Project">Visit</a>
+              </div>
+            </section>
 
-              <section class="project">
-                <a
-                  class="img-wrapper project-image-height custom-position"
-                  href="https://e-renaissance.herokuapp.com/"
-                  target="_blank"
-                  alt="E Renaissance Logo Image"
-                >
-                  <img src="https://res.cloudinary.com/dwxtx5mcj/image/upload/v1671816363/e-renaissance_y375h1.webp" alt="eRenaissance Logo Image" />
-                </a>
-                <h3>eRenaissance</h3>
-                <div>
-                  <p>
-                    <strong
-                      >HTML, CSS, CSS Modules, React, Express.js, Node.js,
-                      MongoDB, Webpack, TypeScript, Git, CIDC Github Actions &
-                      Jest</strong
-                    >
-                    - eRenaissance is a custom built state of the art ecommerce
-                    website with Stripe intergration!
-                  </p>
-                  <!-- <p><strong>Demo account:</strong>: demo@demo.com</p>
+            <section class="project">
+              <a class="img-wrapper" aria-label="Link to Ken Beaudin Portfolio Website"
+                href="https://kenbeaudin.netlify.app/">
+                <img src="https://res.cloudinary.com/dwxtx5mcj/image/upload/v1671817843/ken-beaudin-banner_krife4.webp"
+                  alt="Ken Beaudin Banner" />
+              </a>
+              <h3>Ken Beaudin</h3>
+              <div>
+                <p>
+                  <strong>HTML, CSS, Javascript, NPM, Node.js, Webpack, Git,
+                    Github, Netlify</strong>
+                  - Custome made portfolio, bio and contact website inpsired
+                  by original design.
+                </p>
+                <!-- <p><strong>Demo account:</strong>: demo@demo.com</p>
                   <p><strong>Demo password</strong>: demo</p> -->
-                  <a
-                    class="button"
-                    href="https://e-renaissance.herokuapp.com/"
-                    target="_blank"
-                    aria-label="Link to E Renaisssance Ecommerce Project"
-                    >Visit</a
-                  >
-                </div>
-              </section>
-
-              <section class="project">
-                <a class="img-wrapper" aria-label="Link to Ken Beaudin Portfolio Website" href="https://kenbeaudin.netlify.app/">
-                  <img src="https://res.cloudinary.com/dwxtx5mcj/image/upload/v1671817843/ken-beaudin-banner_krife4.webp" alt="Ken Beaudin Banner" />
-                </a>
-                <h3>Ken Beaudin</h3>
-                <div>
-                  <p>
-                    <strong
-                      >HTML, CSS, Javascript, NPM, Node.js, Webpack, Git,
-                      Github, Netlify</strong
-                    >
-                    - Custome made portfolio, bio and contact website inpsired
-                    by original design.
-                  </p>
-                  <!-- <p><strong>Demo account:</strong>: demo@demo.com</p>
+                <a class="button" href="https://kenbeaudin.netlify.app/">Visit</a>
+              </div>
+            </section>
+            <section class="project">
+              <a class="img-wrapper" href="https://afterwerk.netlify.app/" target="_blank"
+                aria-label="Link to Afterwerk website">
+                <img
+                  src="https://res.cloudinary.com/dwxtx5mcj/image/upload/v1671825705/AfterWerk_Logo_-_Colours_RGB_hqxorr.webp"
+                  alt="AfterWerk Logo" />
+              </a>
+              <h3>AfterWerk</h3>
+              <div>
+                <p>
+                  <strong>HTML, CSS, SASS, Node.js, NPM Scripts, Git &
+                    Netlify</strong>
+                  - After Werk is a lifestyle brand dedicated to being your
+                  best outside work. We enable connecting with others through
+                  fun events, practissing self-care with help from products in
+                  our online store.
+                </p>
+                <!-- <p><strong>Demo account:</strong>: demo@demo.com</p>
                   <p><strong>Demo password</strong>: demo</p> -->
-                  <a class="button" href="https://kenbeaudin.netlify.app/">Visit</a>
-                </div>
-              </section>
-              <section class="project">
-                <a
-                  class="img-wrapper"
-                  href="https://afterwerk.netlify.app/"
-                  target="_blank"
-                  aria-label="Link to Afterwerk website"
-                >
-                  <img
-                    src="https://res.cloudinary.com/dwxtx5mcj/image/upload/v1671825705/AfterWerk_Logo_-_Colours_RGB_hqxorr.webp"
-                    alt="AfterWerk Logo"
-                  />
-                </a>
-                <h3>AfterWerk</h3>
-                <div>
-                  <p>
-                    <strong
-                      >HTML, CSS, SASS, Node.js, NPM Scripts, Git &
-                      Netlify</strong
-                    >
-                    - After Werk is a lifestyle brand dedicated to being your
-                    best outside work. We enable connecting with others through
-                    fun events, practissing self-care with help from products in
-                    our online store.
-                  </p>
-                  <!-- <p><strong>Demo account:</strong>: demo@demo.com</p>
+                <a class="button" target="_blank" href="https://afterwerk.netlify.app/"
+                  aria-label="Afterwerk Link">Visit</a>
+              </div>
+            </section>
+
+            <section class="project">
+              <a class="img-wrapper" href="https://competent-wright-5e4a22.netlify.app/" target="_blank"
+                aria-label="Link to Prognose website">
+                <img src="./src/img/prognose_logo.png" alt="Prognose Logo" />
+              </a>
+              <h3>Prognose</h3>
+              <div>
+                <p>
+                  <strong>HTML, CSS, SASS, Javascript, Gulp, Node.js, NPM, PHP,
+                    Git, cPanel & Google Cloud</strong>
+                  - Specializes in consulting and deploying budget control
+                  solutions, costing and analyzing the profitability of your
+                  products, customers and processes.
+                </p>
+                <!-- <p><strong>Demo account:</strong>: demo@demo.com</p>
                   <p><strong>Demo password</strong>: demo</p> -->
-                  <a
-                    class="button"
-                    target="_blank"
-                    href="https://afterwerk.netlify.app/"
-                    aria-label="Afterwerk Link"
-                    >Visit</a
-                  >
-                </div>
-              </section>
+                <a class="button" href="https://competent-wright-5e4a22.netlify.app/" aria-label="Prognose Link"
+                  target="_blank">Visit</a>
+              </div>
+            </section>
+          </div>
+        </section>
 
-              <section class="project">
-                <a
-                  class="img-wrapper"
-                  href="https://competent-wright-5e4a22.netlify.app/"
-                  target="_blank"
-                  aria-label="Link to Prognose website"
-                >
-                  <img src="./src/img/prognose_logo.png" alt="Prognose Logo" />
-                </a>
-                <h3>Prognose</h3>
-                <div>
-                  <p>
-                    <strong
-                      >HTML, CSS, SASS, Javascript, Gulp, Node.js, NPM, PHP,
-                      Git, cPanel & Google Cloud</strong
-                    >
-                    - Specializes in consulting and deploying budget control
-                    solutions, costing and analyzing the profitability of your
-                    products, customers and processes.
-                  </p>
-                  <!-- <p><strong>Demo account:</strong>: demo@demo.com</p>
-                  <p><strong>Demo password</strong>: demo</p> -->
-                  <a
-                    class="button"
-                    href="https://competent-wright-5e4a22.netlify.app/"
-                    aria-label="Prognose Link"
-                    target="_blank"
-                    >Visit</a
-                  >
-                </div>
-              </section>
-            </div>
-          </section>
+        <section class="services">
+          <h2>Services</h2>
+          <div>
+            <section class="service">
+              <div>
+                <i class="fa-regular fa-gem circle-icon"></i>
+              </div>
+              <div>
+                <h3>Web App Development</h3>
+                <p>
+                  Complele software development life cycle of your full stack
+                  applications. From design, planning, coding, testing and
+                  deploying continuously.
+                </p>
+              </div>
+            </section>
+            <section class="service">
+              <div>
+                <i class="fa-brands fa-rocketchat circle-icon"></i>
+              </div>
+              <div>
+                <h3>UI/UX Design</h3>
+                <p>
+                  The products should feel custom-built for the target
+                  audience and be easy to navigate using a human-centered
+                  design approach
+                </p>
+              </div>
+            </section>
+            <section class="service">
+              <div>
+                <i class="fa-regular fa-paper-plane circle-icon"></i>
+              </div>
+              <div>
+                <h3>Accessible & Responsive Design</h3>
+                <p>
+                  Designed to look great on all types of devices, with logical
+                  page structure that helps users (and search engines)
+                  navigate easily and accsible for everyone
+                </p>
+              </div>
+            </section>
+            <section class="service">
+              <div>
+                <i class="fa-regular fa-chart-bar circle-icon"></i>
+              </div>
+              <div>
+                <h3>Business Strategy</h3>
+                <p>
+                  SEO, Marketing & advertsing strategy that utilizes online
+                  and offline based technologies to promote your services and
+                  grow your brand
+                </p>
+              </div>
+            </section>
+          </div>
+        </section>
 
-          <section class="services">
-            <h2>Services</h2>
-            <div>
-              <section class="service">
-                <div>
-                  <i class="fa-regular fa-gem circle-icon"></i>
-                </div>
-                <div>
-                  <h3>Web App Development</h3>
-                  <p>
-                    Complele software development life cycle of your full stack
-                    applications. From design, planning, coding, testing and
-                    deploying continuously.
-                  </p>
-                </div>
-              </section>
-              <section class="service">
-                <div>
-                  <i class="fa-brands fa-rocketchat circle-icon"></i>
-                </div>
-                <div>
-                  <h3>UI/UX Design</h3>
-                  <p>
-                    The products should feel custom-built for the target
-                    audience and be easy to navigate using a human-centered
-                    design approach
-                  </p>
-                </div>
-              </section>
-              <section class="service">
-                <div>
-                  <i class="fa-regular fa-paper-plane circle-icon"></i>
-                </div>
-                <div>
-                  <h3>Accessible & Responsive Design</h3>
-                  <p>
-                    Designed to look great on all types of devices, with logical
-                    page structure that helps users (and search engines)
-                    navigate easily and accsible for everyone
-                  </p>
-                </div>
-              </section>
-              <section class="service">
-                <div>
-                  <i class="fa-regular fa-chart-bar circle-icon"></i>
-                </div>
-                <div>
-                  <h3>Business Strategy</h3>
-                  <p>
-                    SEO, Marketing & advertsing strategy that utilizes online
-                    and offline based technologies to promote your services and
-                    grow your brand
-                  </p>
-                </div>
-              </section>
-            </div>
-          </section>
+        <section class="tech-icons">
+          <h2>Tech Stack</h2>
+          <div>
+            <img src="./src/img/mongodb.svg" alt="MongoDB Icon Image" />
+            <img src="./src/img/express.svg" alt="Express.js Icon Image" />
+            <img src="./src/img/react.svg" alt="React.js Icon Image" />
+            <img src="./src/img/nodejs.svg" alt="Node.js Icon Image" />
+            <img src="./src/img/webpack.svg" alt="Express.js Icon Image" />
+            <img src="./src/img/html5.svg" alt="HTML 5 Icon Image" />
+            <img src="./src/img/css3.svg" alt="CSS 3 Icon Image" />
+            <img src="./src/img/javascript.svg" alt="Javascript Icon Image" />
+            <img src="./src/img/git.svg" alt="MongoDB Icon Image" />
+            <img src="./src/img/sass.svg" alt="" />
+            <img src="./src/img/figma.svg" alt="MongoDB Icon Image" />
+            <img src="./src/img/heroku-icon.svg" alt="React.js Icon Image" />
+            <!-- <img src="./src/img/redux.svg" alt="Express.js Icon Image" /> -->
+            <img src="./src/img/ubuntu-icon.svg" alt="Node.js Icon Image" />
+            <img src="./src/img/jest.svg" alt="MongoDB Icon Image" />
+            <img src="./src/img/mocha.svg" alt="Express.js Icon Image" />
+            <img src="./src/img/java-icon.svg" alt="Java Icon Image" />
+            <img src="./src/img/mysql-icon.svg" alt="MySQL Icon Image" />
+            <img src="./src/img/postgresql-icon.svg" alt="Postgresql" />
+          </div>
+        </section>
 
-          <section class="tech-icons">
-            <h2>Tech Stack</h2>
-            <div>
-              <img src="./src/img/mongodb.svg" alt="MongoDB Icon Image" />
-              <img src="./src/img/express.svg" alt="Express.js Icon Image" />
-              <img src="./src/img/react.svg" alt="React.js Icon Image" />
-              <img src="./src/img/nodejs.svg" alt="Node.js Icon Image" />
-              <img src="./src/img/webpack.svg" alt="Express.js Icon Image" />
-              <img src="./src/img/html5.svg" alt="HTML 5 Icon Image" />
-              <img src="./src/img/css3.svg" alt="CSS 3 Icon Image" />
-              <img src="./src/img/javascript.svg" alt="Javascript Icon Image" />
-              <img src="./src/img/git.svg" alt="MongoDB Icon Image" />
-              <img src="./src/img/sass.svg" alt="" />
-              <img src="./src/img/figma.svg" alt="MongoDB Icon Image" />
-              <img src="./src/img/heroku-icon.svg" alt="React.js Icon Image" />
-              <!-- <img src="./src/img/redux.svg" alt="Express.js Icon Image" /> -->
-              <img src="./src/img/ubuntu-icon.svg" alt="Node.js Icon Image" />
-              <img src="./src/img/jest.svg" alt="MongoDB Icon Image" />
-              <img src="./src/img/mocha.svg" alt="Express.js Icon Image" />
-              <img src="./src/img/java-icon.svg" alt="Java Icon Image" />
-              <img src="./src/img/mysql-icon.svg" alt="MySQL Icon Image" />
-              <img src="./src/img/postgresql-icon.svg" alt="Postgresql" />
-            </div>
-          </section>
-
-          <!-- CONTACT FORM -->
-          <section class="container">
-            <form id="contact" name="contact" data-netlify="true" action="POST">
-              <h2>Let's Connect!</h2>
-              <fieldset>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="First Name"
-                  required
-                />
-              </fieldset>
-              <fieldset>
-                <input
-                  type="text"
-                  name="lastname"
-                  placeholder="Last Name"
-                  required
-                />
-              </fieldset>
-              <fieldset>
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                  required
-                />
-              </fieldset>
-              <!-- <fieldset>
+        <!-- CONTACT FORM -->
+        <section class="container">
+          <form id="contact" name="contact" data-netlify="true" action="POST">
+            <h2>Let's Connect!</h2>
+            <fieldset>
+              <input type="text" name="name" placeholder="First Name" required />
+            </fieldset>
+            <fieldset>
+              <input type="text" name="lastname" placeholder="Last Name" required />
+            </fieldset>
+            <fieldset>
+              <input type="email" name="email" placeholder="Email" required />
+            </fieldset>
+            <!-- <fieldset>
                 <input
                   type="tel"
                   tabindex="4"
@@ -470,95 +383,69 @@
                   required
                 />
               </fieldset> -->
-              <fieldset>
-                <input
-                  type="url"
-                  name="link"
-                  placeholder="Website Link (Optional)"
-                />
-              </fieldset>
-              <fieldset>
-                <textarea
-                  name="message"
-                  placeholder="Leave your message (Optional)"
-                ></textarea>
-              </fieldset>
-              <fieldset>
-                <!-- Removed the attribute from div below to improve performance
+            <fieldset>
+              <input type="url" name="link" placeholder="Website Link (Optional)" />
+            </fieldset>
+            <fieldset>
+              <textarea name="message" placeholder="Leave your message (Optional)"></textarea>
+            </fieldset>
+            <fieldset>
+              <!-- Removed the attribute from div below to improve performance
                 data-netlify-recaptcha="true" -->
-                <div
-                  style="
+              <div style="
                     transform: scale(0.77);
                     -webkit-transform: scale(0.77);
                     transform-origin: 0 0;
                     -webkit-transform-origin: 0 0;
-                  "
-                ></div>
-              </fieldset>
+                  "></div>
+            </fieldset>
 
-              <fieldset>
-                <button
-                  type="submit"
-                  name="submit"
-                  id="contact-submit"
-                  data-submit="sending"
-                  aria-label="Submit Form"
-                >
-                  Submit
-                </button>
-              </fieldset>
-            </form>
-          </section>
-          <!-- FOOTER -->
-
-          <footer>
-            <ul>
-              <li>
-                <a href="https://twitter.com/kb9700"
-                  ><img src="./src/img/linkedin-ar21.svg" alt="Linkedin Link"
-                /></a>
-              </li>
-              <li>
-                <a href="https://github.com/kbventures"
-                  ><img src="./src/img/github-ar21.svg" alt="Github Link"
-                /></a>
-              </li>
-              <li>
-                <a href="https://twitter.com/kb9700"
-                  ><img src="./src/img/twitter-ar21.svg" alt="Twitter Link"
-                /></a>
-              </li>
-              <li>
-                <a href="https://kenbeaudin.netlify.app/"
-                  ><img
-                    src="https://res.cloudinary.com/dwxtx5mcj/image/upload/v1671817843/ken-beaudin-banner_krife4.webp"
-                    alt="Ken Beaudin Portfolio Website Link"
-                /></a>
-              </li>
-            </ul>
-            <p id="copyright">
-              <i>Copyright &copy; 2023, Ken Beaudin, All Rights Reserved</i>
-            </p>
-          </footer>
+            <fieldset>
+              <button type="submit" name="submit" id="contact-submit" data-submit="sending" aria-label="Submit Form">
+                Submit
+              </button>
+            </fieldset>
+          </form>
         </section>
-      </div>
-    </div>
-    <script
-    defer
-    src="https://kit.fontawesome.com/68d05a0962.js"
-    crossorigin="anonymous"
-  ></script>
-    <script defer src="./dist/bundle.js"></script>
-    <script>
-      function openNav() {
-        document.getElementById("mySidenav").style.display = "block";
-        document.querySelector(".toggle").style.display = "block";
-      }
+        <!-- FOOTER -->
 
-      function closeNav() {
-        document.getElementById("mySidenav").style.display = "none";
-        document.querySelector(".toggle").style.display = "none";
-      }
-    </script>
-  </body>
+        <footer>
+          <ul>
+            <li>
+              <a href="https://twitter.com/kb9700"><img src="./src/img/linkedin-ar21.svg" alt="Linkedin Link" /></a>
+            </li>
+            <li>
+              <a href="https://github.com/kbventures"><img src="./src/img/github-ar21.svg" alt="Github Link" /></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/kb9700"><img src="./src/img/twitter-ar21.svg" alt="Twitter Link" /></a>
+            </li>
+            <li>
+              <a href="https://kenbeaudin.netlify.app/"><img
+                  src="https://res.cloudinary.com/dwxtx5mcj/image/upload/v1671817843/ken-beaudin-banner_krife4.webp"
+                  alt="Ken Beaudin Portfolio Website Link" /></a>
+            </li>
+          </ul>
+          <p id="copyright">
+            <i>Copyright &copy; 2023, Ken Beaudin, All Rights Reserved</i>
+          </p>
+        </footer>
+      </section>
+    </div>
+  </div>
+  <script defer src="https://kit.fontawesome.com/68d05a0962.js" crossorigin="anonymous"></script>
+  <script defer src="./dist/bundle.js"></script>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.display = "block";
+      document.querySelector(".toggle").style.display = "block";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.display = "none";
+      document.querySelector(".toggle").style.display = "none";
+    }
+  </script>
+</body>
+
 </html>

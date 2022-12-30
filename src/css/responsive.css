@@ -41,8 +41,6 @@ Ems are the best option for media queries
 
 	.sidenav h3 {
 		font-size: var(--16p66);
-		margin-top:65px;
-
 	}
 
 	.sidenav i {
@@ -167,8 +165,8 @@ Ems are the best option for media queries
 	}
 
 
-	#contact h2{
-		font-size:var(--20px)
+	#contact h2 {
+		font-size: var(--20px)
 	}
 }
 
@@ -275,7 +273,7 @@ Ems are the best option for media queries
 	.mediaquery-at-736px ul {
 		display: flex;
 		align-items: center;
-		color: var(--cool-grey)
+		/* color: var(--cool-grey) */
 	}
 
 	.mediaquery-at-736px li:not(:last-child) {
@@ -300,7 +298,7 @@ Ems are the best option for media queries
 	}
 
 
-	.main nav > button  span i {
+	.main nav>button span i {
 		color: var(--green);
 		background-color: white;
 		font-size: 25px;
@@ -376,7 +374,7 @@ Ems are the best option for media queries
 	.service i {
 		font-size: 48px;
 	}
-	
+
 	.mediaquery-at-736px li:not(:last-child) {
 		padding-right: 13px;
 	}
