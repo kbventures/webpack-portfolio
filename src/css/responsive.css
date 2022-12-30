@@ -390,9 +390,9 @@ Ems are the best option for media queries
 		display: none;
 	}
 
-	main h1 {
+	/* main h1 {
 		font-size: var(--56px);
-	}
+	} */
 
 	main p {
 		font-size: var(--14p66px);
@@ -590,7 +590,7 @@ Ems are the best option for media queries
 	}
 
 	main h1 {
-		font-size: var(--69px);
+		font-size: var(--56px);
 	}
 
 	main p {
