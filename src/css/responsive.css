@@ -419,12 +419,12 @@ Ems are the best option for media queries
 
 	main .image-container {
 		display: flex;
-		justify-content: center;
+		justify-content: right;
 		align-content: center;
 	}
 
 	main img {
-		width: 80%;
+		width: 70%;
 
 	}
 

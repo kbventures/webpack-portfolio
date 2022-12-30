@@ -373,6 +373,8 @@ main h1 {
 	font-weight: 700;
 	margin-bottom: var(--12px);
 	letter-spacing: 1px;
+	font-family: "Chakra Petch";
+
 }
 
 
@@ -933,7 +935,7 @@ section>h2 {
 	border: none;
 	border-radius: 6px;
 	padding: 12px 20px;
-	font-size: var(--13px);
+	font-size: var(--15px);
 	font-weight: 700;
 	line-height: 22px;
 	display: inline-block;
