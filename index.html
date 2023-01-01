@@ -374,27 +374,20 @@
           <form id="contact" name="contact" data-netlify="true" action="POST">
             <h2>Let's Connect!</h2>
             <fieldset>
-              <input type="text" name="name" placeholder="First Name" required />
+              <label for="name">Name</label>
+              <input type="text" name="name" placeholder="John" required />
             </fieldset>
             <fieldset>
-              <input type="text" name="lastname" placeholder="Last Name" required />
+              <label for="lastname">Last Name</label>
+              <input type="text" name="lastname" placeholder="Doe" required />
             </fieldset>
             <fieldset>
-              <input type="email" name="email" placeholder="Email" required />
-            </fieldset>
-            <!-- <fieldset>
-                <input
-                  type="tel"
-                  tabindex="4"
-                  placeholder="Phone No."
-                  required
-                />
-              </fieldset> -->
-            <fieldset>
-              <input type="url" name="link" placeholder="Website Link (Optional)" />
+              <label for="email">Email</label>
+              <input type="email" name="email" placeholder="johndoe@gmail.com" required />
             </fieldset>
             <fieldset>
-              <textarea name="message" placeholder="Leave your message (Optional)"></textarea>
+              <label for="message">Message</label>
+              <textarea name="message" placeholder="Hello, this is John Doe..."></textarea>
             </fieldset>
             <fieldset>
               <!-- Removed the attribute from div below to improve performance

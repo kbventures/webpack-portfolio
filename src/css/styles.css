@@ -592,7 +592,8 @@ section>h2 {
 	background: #f9f9f9;
 	padding: 30px;
 	margin: 46px 0;
-	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	box-shadow: 0 15px 35px rgb(50 50 93 / 10%), 0 5px 15px rgb(0 0 0 / 7%);
+
 }
 
 #contact h2 {
@@ -605,6 +606,10 @@ section>h2 {
 	border-bottom: 3px solid var(--green);
 	margin-bottom: var(--36px)
 }
+
+/* #contact label {
+	padding-bottom: 5rem;
+} */
 
 fieldset {
 	border: medium none !important;
