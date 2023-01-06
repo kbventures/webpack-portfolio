@@ -11,6 +11,8 @@ Make Search Bar Work
 create captcha for form
 https://tehnoblog.org/google-invisible-recaptcha-how-to-boost-lighthouse-performance-score/
 Make Name and last name responssive
+More contrast needed between grey on white content for
+accessibility
 
 
 Setting up fonts locally

@@ -172,7 +172,8 @@ nav li:not(:last-child) {
 	color: var(--cool-grey)
 }
 
-.mediaquery-at-736px a:hover {
+.mediaquery-at-736px a:hover,
+.mediaquery-at-736px a:focus {
 	color: var(--green)
 }
 
@@ -214,7 +215,8 @@ nav li:not(:last-child) {
 	color: var(--oslo-grey);
 }
 
-.sidenav li a:hover {
+.sidenav li a:hover,
+.sidenav li a:focus {
 	color: var(--green);
 }
 
@@ -434,12 +436,8 @@ main p {
 	font-weight: 400;
 }
 
-/* .main button:hover,
-.main button strong:hover {
-	color: var(--green)
-} */
-
-.main ul li a:hover {
+.main ul li a:hover,
+.main ul li a:focus {
 	color: var(--green) !important
 }
 
@@ -708,7 +706,8 @@ fieldset {
 	text-decoration: underline;
 }
 
-#contact button[type="submit"]:hover {
+#contact button[type="submit"]:hover,
+#contact button[type="submit"]:focus {
 	background: #43a047;
 	-webkit-transition: background 0.3s ease-in-out;
 	-moz-transition: background 0.3s ease-in-out;
@@ -956,7 +955,8 @@ section>h2 {
 	display: inline-block;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
 	background-color: var(--green-transparent);
 }
 
@@ -975,7 +975,8 @@ section>h2 {
 }
 
 
-.button-resume:hover {
+.button-resume:hover,
+.button-resume:focus {
 	background-color: var(--green-transparent);
 }
 
@@ -996,7 +997,8 @@ section>h2 {
 	-moz-box-shadow: 2px 7px 33px -2px rgba(154, 171, 237, 1);
 }
 
-.button-call-to-action:hover {
+.button-call-to-action:hover,
+.button-call-to-action:focus {
 	box-shadow: none;
 	cursor: pointer;
 }
