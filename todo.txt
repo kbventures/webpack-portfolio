@@ -5,7 +5,7 @@ button in project section should be centerin the same position
 French Version
 Add specific dimensions to images by size of screens
 Night Mode
-Tinker More With Webpacks(Images())
+Investigate webpack further for optimisations
 Add hamburger menu on wide screen
 Make Search Bar Work
 create captcha for form

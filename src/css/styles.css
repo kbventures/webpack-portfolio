@@ -650,15 +650,11 @@ section>h2 {
 	display: inline-block;
 	font-weight: 700;
 	margin-bottom: 10px;
-	/* text-align: center; */
 	color: var(--mako);
 	border-bottom: 3px solid var(--green);
 	margin-bottom: var(--36px)
 }
 
-/* #contact label {
-	padding-bottom: 5rem;
-} */
 
 fieldset {
 	border: medium none !important;
@@ -709,6 +705,7 @@ fieldset {
 	padding: 10px;
 	font-size: var(--15px);
 	border-radius: 30px;
+	text-decoration: underline;
 }
 
 #contact button[type="submit"]:hover {
@@ -949,7 +946,6 @@ section>h2 {
 /*******************************************/
 
 .button {
-	text-decoration: none;
 	padding: 7.5px 20px;
 	color: var(--green);
 	text-transform: uppercase;
@@ -995,7 +991,6 @@ section>h2 {
 	line-height: 22px;
 	display: inline-block;
 	align-items: center;
-	text-decoration: none;
 	box-shadow: 2px 7px 33px -2px rgba(154, 171, 237, 1);
 	-webkit-box-shadow: 2px 7px 33px -2px rgba(154, 171, 237, 1);
 	-moz-box-shadow: 2px 7px 33px -2px rgba(154, 171, 237, 1);
