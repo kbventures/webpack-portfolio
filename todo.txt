@@ -1,7 +1,5 @@
 *** OPTIMIZATIONS:
-https://webaccessibilitychecklist.com/
 Resume should be pdf download
-button in project section should be centerin the same position 
 French Version
 Add specific dimensions to images by size of screens
 Night Mode
@@ -10,9 +8,7 @@ Add hamburger menu on wide screen
 Make Search Bar Work
 create captcha for form
 https://tehnoblog.org/google-invisible-recaptcha-how-to-boost-lighthouse-performance-score/
-Make Name and last name responssive
-More contrast needed between grey on white content for
-accessibility
+Make Name and last name input found in form responssive
 
 
 Setting up fonts locally
@@ -20,7 +16,18 @@ https://gwfh.mranftl.com/fonts
 https://www.youtube.com/watch?v=363s_ziVwTg
 ***
 
+Accessibility:
+HTML Sitemap
+Allow keyboard users to skip navigation
+Forms have helpful and accessible error and verification messages
+https://webaccessibilitychecklist.com/
+Use ARIA landmarks where applicable
+More contrast needed between grey on white content for
+accessibility
 
+Streamline css selector naming to make finding specific code easier and improve loading time
+
+Remove notes and usused code
 
 
 
