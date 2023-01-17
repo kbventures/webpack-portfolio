@@ -189,7 +189,7 @@ nav li:not(:last-child) {
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: var(--porcelain);
+	background-color: white;
 	overflow-x: hidden;
 	padding: 20px;
 
