@@ -424,6 +424,7 @@ main h1 {
 	margin-bottom: var(--12px);
 	letter-spacing: 1px;
 	font-family: "Chakra Petch";
+	line-height:1;
 
 }
 
