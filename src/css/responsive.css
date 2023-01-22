@@ -239,7 +239,6 @@ Ems are the best option for media queries
 
 	main h1 {
 		font-size: var(--43p33px);
-		line-height: 1.3;
 	}
 
 	main p {
@@ -341,7 +340,6 @@ Ems are the best option for media queries
 	}
 
 	main h1 {
-		line-height: 1.3;
 		font-size: var(--46p66px);
 	}
 
@@ -388,10 +386,6 @@ Ems are the best option for media queries
 	.nav-button {
 		display: none;
 	}
-
-	/* main h1 {
-		font-size: var(--56px);
-	} */
 
 	main p {
 		font-size: var(--14p66px);
