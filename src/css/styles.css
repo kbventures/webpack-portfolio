@@ -462,81 +462,82 @@ main p {
 /*******************************************/
 
 
+/* Apply styles to ensure the button is positioned at the bottom of the project cards */
+
+/* Apply styles to ensure the button is positioned at the bottom of the project cards with space above */
+
 .projects {
 	margin-top: 66px;
-
-}
-
-
-section>h2 {
+  }
+  
+  section > h2 {
 	color: var(--mako);
 	border-bottom: var(--green) solid 3px;
 	display: inline-block;
 	padding-bottom: 10px;
-	;
 	margin-bottom: var(--36px);
-
 	font-weight: 700;
-}
-
-.project img {
+  }
+  
+  .project img {
 	width: 100%;
-}
-
-.project {
-	margin-bottom: var(--30px);
-	padding: 0 0 0rem;
-	border-bottom: 2px solid var(--metallic-silver-light);
-}
-
-.project h3 {
+	transition: all .2s ease;
+  }
+  
+  .project {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between; /* Distribute space between content and button */
+	border-bottom: 2px solid var(--metallic-silver-light); /* Example border for visual clarity */
+	padding-bottom: 1rem; /* Adjust padding as needed */
+	margin-bottom: 3rem;
+  }
+  
+  .project h3 {
 	padding-top: 15px;
 	margin-bottom: var(--15px);
 	color: var(--mako);
 	font-weight: 700;
-}
-
-.project h3+div {
-	margin-bottom: var(--24px);
-}
-
-.project p {
+  }
+  
+  .project h3 + div {
+	margin-bottom: var(--12px);
+  }
+  
+  .project p {
 	color: var(--oslo-grey);
 	font-family: 'Open Sans';
-}
-
-.project strong {
+  }
+  
+  .project strong {
 	color: var(--mako);
 	font-weight: 600;
-}
-
-.project>div a {
-	margin-top: var(--25px);
-}
-
-
-.img-wrapper {
+  }
+  
+  .project > div a {
+	margin-top: 15px; /* Add space above the button */
+	margin-bottom: 10px; /* Optional: Add space below the button */
+	/* Additional button styles */
+  }
+  
+  .img-wrapper {
 	display: block;
 	overflow: hidden;
 	border-radius: 5px;
 	cursor: pointer;
 	max-height: 190px;
-}
-
-.custom-position {
+  }
+  
+  .custom-position {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.project img {
-	transition: all .2s ease;
-}
-
-.project img:hover {
+  }
+  
+  .project img:hover {
 	transform: scale(1.1);
-}
-
+  }
+  
 
 /******************************************
 /* SERVICES
@@ -954,6 +955,7 @@ section>h2 {
 	border: 2px solid var(--green);
 	display: inline-block;
 }
+
 
 .button:hover,
 .button:focus {
