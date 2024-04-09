@@ -483,6 +483,11 @@ main p {
 	width: 100%;
 	transition: all .2s ease;
   }
+
+  #ccxt .project img {
+	height: 100%;
+	transition: all .2s ease;
+  }
   
   .project {
 	display: flex;
